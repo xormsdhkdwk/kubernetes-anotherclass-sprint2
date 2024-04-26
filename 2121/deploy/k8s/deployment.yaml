@@ -33,7 +33,7 @@ spec:
         node: infra
       containers:
         - name: api-tester-2121
-          image: xormsdhkdwk/api-tester:v1.0.0
+          image: 100.10.0.10:55000/xormsdhkdwk/api-tester:v1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
